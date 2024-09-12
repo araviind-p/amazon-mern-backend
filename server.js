@@ -9,7 +9,7 @@ import cors from "cors";
 
 dotenv.config();
 mongoose.connect("mongodb+srv://amazon:amazon123@cluster0.wtyvoza.mongodb.net/amazon?retryWrites=true&w=majority").then(() => {
-    console.log("Connected to database");
+    console.log("Connected to database✅");
 }).catch((err) => {
     console.log(err.message);
 })
